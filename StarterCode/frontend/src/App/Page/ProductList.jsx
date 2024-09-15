@@ -52,7 +52,7 @@ const ProductList = () => {
                       ${card.price}
                     </Typography>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                      ${card.description}
+                      {card.description}
                     </Typography>
                   </CardContent>
                 </CardActionArea>
